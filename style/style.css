@@ -1,0 +1,373 @@
+.Ya-logo {                       
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+.Ya-logo-market{
+    color: black;
+    font-size: 50px;
+}
+.Ya-M-logo {
+    font-size: 50px;
+    background-color: red;
+    color: orange;
+}
+.logo{
+    font-style: italic;
+    font-weight: bold;
+}
+/* logo market */
+
+.menu-panel > button {
+    color: black;
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    padding: 2px;
+    margin-right: 10px;
+
+}
+/* Выдвижная панель  */
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search > input{
+    width: 400px;
+    height: 30px;
+}
+.search-button{
+    background-color: yellow;
+    width: 70px;
+    height: 35px;
+    border: 1px, solid, yellow;
+    font-size: 15px;
+    font-style:inherit;
+    font-weight: bold;
+}
+.search {
+    background-color: yellow;
+    display: flex;
+    border: 5px, solid yellow;
+}
+
+.orders-liked-basket {
+font-size: 20px;
+}
+.orders {
+border: 2px, solid, black;
+background-color: white;
+margin: 10px;
+font-size: 20px;
+}
+
+.like{
+border: 2px, solid, black;
+background-color: white;
+margin: 10px;
+font-size: 20px;
+}
+.basket{
+    border: 2px, solid, black;
+    background-color:white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Login-in>button{
+    background-color: rgb(199, 199, 199);
+    font-size:25px ;
+}
+/* шапка сайта */
+
+/* товары ниже */
+
+/* мышь */
+.card-mouse{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s;
+}
+
+
+
+.img-mouse{
+    width: 225px;
+    min-height: 350px;
+    
+
+}
+
+.card-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+
+.mouse-bottom{
+    flex: 1 0 auto;
+}
+
+.mouse__label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    background-color:#ff6633 ;
+    border-radius:4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* сейф */
+
+.card-safe{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s;
+}
+
+
+.img-safe{
+    width: 225px;
+    min-height: 350px;
+}
+
+.safe-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+.safe-bottom{
+    flex: 1 0 auto;
+}
+
+.safe-label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    background-color:#ff6633 ;
+    border-radius:4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Зажигалка */
+
+.Lighter-card{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s;
+}
+
+.img-Light{
+    width: 225px;
+    min-height: 350px;
+}
+
+.Light-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+
+.Light-bottom{
+    flex: 1 0 auto;
+}
+
+.Light-label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    background-color:#ff6633 ;
+    border-radius:4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Одеколон */
+
+.Cologne-card{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s;
+
+}
+
+.img-Cologne{
+    width: 225px;
+    min-height: 350px;
+}
+
+.Cologne-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+
+.Cologne-bottom{
+    flex: 1 0 auto;
+}
+
+.Cologne-label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    background-color:#ff6633 ;
+    border-radius:4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Лего набор майнкрафт */
+
+.lego-card{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s;
+}
+
+.img-lego{
+    width: 225px;
+    min-height: 350px;
+}
+
+.lego-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+
+.lego-bottom{
+    flex: 1 0 auto;
+}
+
+.lego-label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    background-color:#ff6633 ;
+    border-radius:4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* нАУшники */
+/* .headphones-card{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s; 
+}
+
+.img-headphones{
+    width: 225px;
+    min-height: 350px;
+}
+
+.headphones-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+
+.headphones-bottom{
+    flex: 1 0 auto;
+}
+
+.headphones-label{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s; 
+} */
+
+/* кресло */
+
+.chair-card{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition:0.2s;
+}
+
+.img-chair{
+    width: 225px;
+    min-height: 350px;
+}
+
+.chair-top{
+    flex: 0 0 220px;
+    position: relative;
+}
+
+.chair-bottom{
+    flex: 1 0 auto;
+}
+
+.chair-label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px;
+    background-color:#ff6633 ;
+    border-radius:4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.cards{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.cards__grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 225px);
+}
+
+.cards > a{
+    font-size: 14pt;
+    color: black;
+
+}
